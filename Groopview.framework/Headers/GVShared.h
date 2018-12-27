@@ -55,6 +55,8 @@
 #define PREF_CURRENT_USER @"current_user"
 #define PREF_UA_TOKEN @"urbanairship_token" // UrbanAirship Device Token
 
+#define PREF_GROOPVIEW_STARTED @"groopview_started"
+
 // TODO: 11/27/2018 Create Groopview Info Keys
 #define GV_GROOP_ID        @"groop_id"
 #define GV_VIDEO_URL       @"video_url"
