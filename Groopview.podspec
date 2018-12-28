@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "Groopview"
-  spec.version      = "0.1.1"
+  spec.version      = "0.1.3"
   spec.summary      = "Play Video with Participants."
 
   # This description is used to generate tags and improve search results.
@@ -98,7 +98,7 @@ SOFTWARE.' }
   #
 
   # spec.source       = { :git => "https://github.com/myProductBucket/testsdk.git", :tag => "#{spec.version}" }
-  spec.source       = { :http => "https://github.com/myProductBucket/testsdk/releases/download/0.1.1/Groopview.framework.zip" }
+  spec.source       = { :http => "https://github.com/myProductBucket/testsdk/releases/download/0.1.3/Groopview.framework.zip" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
