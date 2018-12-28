@@ -142,7 +142,7 @@ SOFTWARE.' }
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
-  spec.vendored_frameworks = "Groopview.framework"
+  spec.vendored_frameworks = "sdkm.framework"
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
