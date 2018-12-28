@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "Groopview"
-  spec.version      = "0.0.10"
+  spec.version      = "0.1.0"
   spec.summary      = "Play Video with Participants."
 
   # This description is used to generate tags and improve search results.
@@ -98,7 +98,7 @@ SOFTWARE.' }
   #
 
   # spec.source       = { :git => "https://github.com/myProductBucket/testsdk.git", :tag => "#{spec.version}" }
-  spec.source       = { :http => "https://github.com/myProductBucket/testsdk/archive/0.0.3.zip" }
+  spec.source       = { :http => "https://github.com/myProductBucket/testsdk/releases/download/0.1.0/Groopview.framework.zip" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -142,7 +142,7 @@ SOFTWARE.' }
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
-  spec.vendored_frameworks = "testsdk-0.0.3/Groopview.framework"
+  spec.vendored_frameworks = "Groopview.framework"
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
