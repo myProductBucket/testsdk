@@ -22,6 +22,8 @@
 @property (strong, nonatomic) NSMutableDictionary *createGroopviewInfo;
 @property (strong, nonatomic) UIViewController *chooseVideoController;
 
+@property (strong, nonatomic) NSMutableArray *arrAlerts;
+
 + (instancetype)shared;
 
 #pragma mark -
@@ -56,6 +58,7 @@
 #define PREF_UA_TOKEN @"urbanairship_token" // UrbanAirship Device Token
 
 #define PREF_GROOPVIEW_STARTED @"groopview_started"
+#define PREF_GROOPVIEW_ALERT_PRESENTED @"alert_presented"
 
 // TODO: 11/27/2018 Create Groopview Info Keys
 #define GV_GROOP_ID        @"groop_id"
